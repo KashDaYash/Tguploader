@@ -6,6 +6,11 @@ YOU CAN SIMPLY DEPLOY ON HEROKU BY CLICKING THE BUTTON BELOW
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KashDaYash/tgraphupload/)
 
+# DEPLOY ON RAILWAY
+YOU CAN SIMPLY DEPLOY ON RAILWAY BY CLICKING THE BUTTON BELOW
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/W_sKol?referralCode=bg3WnK)
+
+
 # Local Machine
 Clone the repository
 
