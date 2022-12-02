@@ -1,0 +1,40 @@
+{
+    "name": "Telegra.ph Uploader Bot",
+    "description": "A bot that can upload medias to Te.legra.ph",
+    "logo": "https://te.legra.ph/file/f6a44de18a0b5b5256af4.jpg",
+    "keywords": [
+        "Te.legra.ph",
+        "Uploader",
+        "Telegram Bot",
+        "KashDaYash"
+    ],
+    "website": "https://KashDaYash.me",
+    "repository": "https://github.com/KashDaYash/tgraphupload",
+    "success_url": "https://telegram.dog/DynicaBots",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
