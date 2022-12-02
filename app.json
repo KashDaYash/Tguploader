@@ -12,7 +12,7 @@
     "repository": "https://github.com/KashDaYash/tgraphupload",
     "success_url": "https://telegram.dog/DynicaBots",
     "env": {
-        "TG_BOT_TOKEN": {
+        "BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
             "value": ""
         },
