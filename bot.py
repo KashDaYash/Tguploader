@@ -9,7 +9,7 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
 #    General Public License for more details.
 # 
-#    License can be found in < https://github.com/KashDaYash/tgraphupload/blob/main/License> 
+#    License can be found in < https://github.com/Benchamxd/Telegraph-Uploader/blob/main/License> 
 
 import os
 from telegraph import upload_file
@@ -84,8 +84,8 @@ async def home(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Owner', url='http://telegram.me/KashDaYash'),
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/DynicaBots')
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/DynicaBots'),
+        InlineKeyboardButton('Source Code', url='https://github.com/KashDaYash/Tguploader/')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Yash.send_message(
@@ -114,10 +114,9 @@ async def help(client, message):
   reply_markup = InlineKeyboardMarkup(buttons)
   await Yash.send_message(
         chat_id=message.chat.id,
-        text="""There Is Nothing To KnowMore,
+        text="""There Is Nothung To KnowMore,
         
 Just Send Me A Video/gif/photo Upto 5mb.
-
 i'll upload ut to telegra.ph and give you the direct link""",
         reply_markup=reply_markup,
         parse_mode="html",
